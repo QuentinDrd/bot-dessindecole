@@ -1,0 +1,16 @@
+{
+  "name": "debot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pm2 start index.js --attach --watch -n debot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2"
+  }
+}
